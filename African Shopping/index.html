@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Afro Crown Market — premium African fashion, accessories, furniture and culture for kids, teens and families." />
+  <title>Afro Crown Market | African Style, Made Extraordinary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <div class="announcement">✦ FREE UK DELIVERY OVER £75 &nbsp; • &nbsp; NEW SEASON AFRICAN KIDSWEAR &nbsp; • &nbsp; SHOP WITH PURPOSE ✦</div>
+
+  <header class="header">
+    <div class="topbar container">
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+      <a class="brand" href="#" aria-label="Afro Crown Market home">
+        <span class="brand-mark">♛</span>
+        <span><b>AFRO</b> CROWN <em>MARKET</em></span>
+      </a>
+      <div class="search-wrap">
+        <select id="categorySelect" aria-label="Select category">
+          <option value="all">All Categories</option>
+          <option value="kids">Kids (0–12 yrs)</option>
+          <option value="teens">Teens (13–19 yrs)</option>
+          <option value="fashion">African Wears</option>
+          <option value="accessories">Accessories</option>
+          <option value="home">Furniture & Home</option>
+        </select>
+        <input type="search" id="searchInput" placeholder="Search Kente, Ankara dresses, kids, teens..." aria-label="Search catalog" />
+        <button class="search-btn" aria-label="Search">🔍</button>
+      </div>
+      <div class="user-actions">
+        <a class="account-link" href="account.html"><span>Account</span><strong>Sign In / Join</strong></a>
+        <button class="cart-btn" id="cartBtn" aria-label="View shopping cart">
+          <span class="cart-icon">🛍</span>
+          <span class="cart-badge" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="nav container" id="nav">
+      <a href="#kids">Kidswear</a>
+      <a href="#teens">Teen Edit</a>
+      <a href="#fashion">African Wears</a>
+      <a href="#accessories">Accessories</a>
+      <a href="#home">Furniture & Home</a>
+      <a class="deal-link" href="#deals">Today's Deals</a>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <div class="hero-card">
+      <div class="hero-copy">
+        <span class="pill-tag">NEW KIDS & TEENS COLLECTION</span>
+        <h1>Dress them in heritage.<br>Let them shine in culture.</h1>
+        <p>Explore vibrant Ankara prints, handwoven Kente, statement furniture, and authentic accessories crafted for modern life.</p>
+        <div class="hero-actions">
+          <a class="gold-btn" href="#shop">Shop New Arrivals →</a>
+          <a class="dark-btn" href="#categories">Explore Categories</a>
+        </div>
+      </div>
+      <div class="hero-art" style="width: 280px; height: 280px; margin: auto;">
+        <canvas id="hero3DCanvas" style="width: 100%; height: 100%; display: block;"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="categories">
+    <div class="section-head">
+      <div>
+        <h2>Shop By Category</h2>
+        <p>Handpicked cultural treasures for every age and room.</p>
+      </div>
+    </div>
+    <div class="categories-grid">
+      <a class="category-card" href="#kids"><span>👶</span><h3>Kidswear</h3><p>Vibrant Ankara & Kente for 0–12 years</p></a>
+      <a class="category-card" href="#teens"><span>👑</span><h3>Teen Edit</h3><p>Bold streetwear & traditional occasion wear</p></a>
+      <a class="category-card" href="#fashion"><span>✨</span><h3>African Wears</h3><p>Adult statement pieces & celebration attire</p></a>
+      <a class="category-card" href="#accessories"><span>💎</span><h3>Accessories</h3><p>Handmade bags, jewelry & beaded art</p></a>
+      <a class="category-card" href="#home"><span>🛋</span><h3>Furniture & Home</h3><p>Sculpted chairs, decor & heritage craft</p></a>
+    </div>
+  </section>
+
+  <section class="deal-strip container" id="deals">
+    <div class="deal-inner">
+      <div>
+        <span class="pill-tag red">LIMITED TIME DEAL</span>
+        <h2>Cultural Crown Savings</h2>
+        <p>Save up to 30% on selected kids and teen Kente sets today.</p>
+      </div>
+      <div class="deal-clock" id="dealClock">08:42:19</div>
+      <a class="gold-btn" href="#shop">Claim Deals Now →</a>
+    </div>
+  </section>
+
+  <section class="section container" id="shop">
+    <div class="section-head">
+      <div>
+        <h2>Explore The Market</h2>
+        <p>Authentic handmade items delivered directly to your home.</p>
+      </div>
+      <div class="filter-pills" id="filterPills">
+        <button class="pill active" data-cat="all">All Items</button>
+        <button class="pill" data-cat="kids">Kids</button>
+        <button class="pill" data-cat="teens">Teens</button>
+        <button class="pill" data-cat="fashion">Fashion</button>
+        <button class="pill" data-cat="accessories">Accessories</button>
+        <button class="pill" data-cat="home">Home</button>
+      </div>
+    </div>
+
+    <div class="results-bar">
+      <span id="resultsCount">Showing catalogue items</span>
+      <div>
+        <label for="sortSelect">Sort by: </label>
+        <select id="sortSelect">
+          <option value="featured">Featured</option>
+          <option value="low">Price: Low to High</option>
+          <option value="high">Price: High to Low</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+  <section class="feature-banner container" id="story">
+    <div class="feature-inner">
+      <div class="feature-copy">
+        <span class="pill-tag">OUR MISSION</span>
+        <h2>Made by Artisans.<br>Worn with Royalty.</h2>
+        <p>Every piece in Afro Crown Market supports African craftspeople, weavers, and designers preserving centuries of artistry.</p>
+        <a class="gold-btn" href="account.html">Join The Crown Club →</a>
+      </div>
+      <div class="feature-image">
+        <span>🎨</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter container">
+    <div class="newsletter-inner">
+      <h2>Join The Crown Letter</h2>
+      <p>Get £10 off your first order, exclusive access to new launches, and African culture stories.</p>
+      <form id="newsletterForm">
+        <input type="email" placeholder="Enter your email address" required />
+        <button class="gold-btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand light" href="#">
+          <span class="brand-mark">♛</span>
+          <span><b>AFRO</b> CROWN <em>MARKET</em></span>
+        </a>
+        <p>Premium African products for a new generation.</p>
+        <div class="socials"><span>◎          </span><span>f          </span><span>𝕏   </span><span>▶</span></div>
+      </div>
+      <div><h4>Shop</h4><a href="#kids">Kidswear</a><a href="#teens">Teen Edit</a><a href="#fashion">African Wears</a><a href="#accessories">Accessories</a><a href="#home">Furniture & Home</a></div>
+      <div><h4>Help</h4><a href="account.html">Your Account</a><a href="#">Delivery & Returns</a><a href="#">Track an Order</a><a href="#">Contact Us</a><a href="#">FAQs</a></div>
+      <div><h4>About</h4><a href="#story">Our Story</a><a href="#">African Makers</a><a href="#">Journal</a><a href="#">Sell With Us</a><a href="#">Careers</a></div>
+    </div>
+    <div class="footer-bottom"><div class="container"><span>© 2026 Afro Crown Market. Made with pride.</span><span>Privacy · Terms · Cookies</span></div></div>
+  </footer>
+
+  <aside class="cart-panel" id="cartPanel">
+    <div class="cart-head"><h2>Your Crown Cart</h2><button id="closeCart">×</button></div>
+    <div id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty"><span>🛍</span><h3>Your cart is waiting.</h3><p>Add something extraordinary.</p></div>
+    <div class="cart-total" id="cartTotal"><div><span>Subtotal</span><b>£<span id="subtotal">0.00</span></b></div><button class="gold-btn" id="checkout">Proceed to checkout →</button></div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="toast" id="toast">Item added to cart ✨</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

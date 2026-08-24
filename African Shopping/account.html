@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Your Account | Afro Crown Market</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.account-page{min-height:calc(100vh - 120px);background:linear-gradient(135deg,#f8f2e6,#fffdf8);padding:55px 0 90px}
+.account-shell{max-width:1040px;margin:auto;display:grid;grid-template-columns:1fr 1.15fr;gap:30px}
+.account-intro{background:#0d3b2e;color:white;border-radius:10px;padding:45px;position:relative;overflow:hidden}
+.account-intro:after{content:"♛";position:absolute;font-size:260px;color:#ffffff0b;right:-20px;bottom:-90px}
+.account-intro h1{font:800 42px/1.1 "Playfair Display",serif;margin:15px 0}
+.account-card{background:white;border:1px solid #e8e0d2;border-radius:10px;padding:40px;box-shadow:0 12px 35px rgba(23,19,14,0.06)}
+.account-tabs{display:flex;gap:10px;border-bottom:1px solid #e8e0d2;margin-bottom:25px;padding-bottom:12px}
+.tab-btn{border:none;background:none;font-weight:700;font-size:14px;color:#756e63;cursor:pointer;padding:6px 12px;border-radius:20px}
+.tab-btn.active{background:#17130e;color:white}
+.form-group{margin-bottom:18px}
+.form-group label{display:block;font-size:12px;font-weight:700;margin-bottom:6px;text-transform:uppercase;color:#756e63}
+.form-group input{width:100%;padding:12px 16px;border:1px solid #e8e0d2;border-radius:8px;font-size:14px;outline:none}
+.form-group input:focus{border-color:#d8ad45}
+.account-links{display:flex;justify-content:space-between;font-size:12px;margin-top:20px}
+.account-links a{color:#0d3b2e;text-decoration:none;font-weight:700}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="topbar container">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">♛</span>
+      <span><b>AFRO</b> CROWN <em>MARKET</em></span>
+    </a>
+  </div>
+</header>
+
+<main class="account-page">
+<div class="container"><div class="account-shell">
+<section class="account-intro">
+  <span class="pill-tag">ROYAL MEMBERSHIP</span>
+  <h1>Welcome to Afro Crown</h1>
+  <p>Track orders, save favorite African art and apparel, and get fast delivery across the UK and worldwide.</p>
+</section>
+
+<section class="account-card">
+  <div class="account-tabs">
+    <button class="tab-btn active" id="signInTab">Sign In</button>
+    <button class="tab-btn" id="createTab">Create Account</button>
+  </div>
+  <form id="accountForm">
+    <div class="form-group" id="nameField" style="display:none">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" placeholder="e.g. Amara Mensah">
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="name@example.com" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" required>
+    </div>
+    <button type="submit" class="gold-btn" id="submitBtn" style="width:100%;padding:14px">Sign in to my account →</button>
+    <div class="account-links"><a href="#" onclick="demoReset(event)">Forgot password?</a><a href="index.html#shop">Shop as guest</a></div>
+  </form>
+</section>
+</div></div>
+</main>
+
+<footer><div class="footer-bottom"><div class="container"><span>© 2026 Afro Crown Market</span><span>Privacy · Terms · Cookies</span></div></div></footer>
+
+<script>
+let mode="signin";
+const signInTab=document.getElementById("signInTab"),createTab=document.getElementById("createTab"),nameField=document.getElementById("nameField"),submitBtn=document.getElementById("submitBtn");
+function setMode(m){mode=m;signInTab.classList.toggle("active",m==="signin");createTab.classList.toggle("active",m==="create");nameField.style.display=m==="create"?"block":"none";submitBtn.textContent=m==="signin"?"Sign in to my account →":"Create my Crown account →"}
+signInTab.onclick=()=>setMode("signin");createTab.onclick=()=>setMode("create");
+document.getElementById("accountForm").onsubmit=e=>{e.preventDefault();const email=document.getElementById("email").value;localStorage.setItem("afroCrownUser",JSON.stringify({email,name:document.getElementById("fullName").value||email.split("@")[0]}));alert(mode==="signin"?"Welcome back to Afro Crown Market!":"Your Crown account has been created!");location.href="index.html"};
+function demoReset(e){e.preventDefault();alert("Demo: connect a real authentication provider to enable password recovery.")}
+</script>
+</body>
+</html>

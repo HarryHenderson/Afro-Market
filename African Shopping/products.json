@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Kente Prince Set",
+    "category": "kids",
+    "price": 34.99,
+    "old": 44.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJOcVUYT-Cw6t9i3nlQfNVHX7GiN_tlBVaxcjwD8uEJA&s=10",
+    "badge": "BESTSELLER"
+  },
+  {
+    "id": 2,
+    "name": "Ankara Butterfly Dress",
+    "category": "kids",
+    "price": 29.99,
+    "old": 39.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROWhtHVzbDvC8SE-Z1HEcXkNdoDkmq77134OOhQ5MSIA&s=10",
+    "badge": "NEW"
+  },
+  {
+    "id": 3,
+    "name": "Mini Dashiki Shirt",
+    "category": "kids",
+    "price": 24.99,
+    "old": 31.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AKoWbRoW5vltlkgJYjFxqCr3ZjkBTOFrE6SQv7D3pw&s",
+    "badge": "POPULAR"
+  },
+  {
+    "id": 4,
+    "name": "Little Royal Ankara Shirt",
+    "category": "kids",
+    "price": 27.99,
+    "old": 34.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwyERmhGRPTLg5AZyjqb3vasNu86XiZWMYpLGNeZFEmj_St_HzGQcxzvQ&s=10",
+    "badge": "NEW"
+  },
+  {
+    "id": 5,
+    "name": "Kente Varsity Jacket",
+    "category": "teens",
+    "price": 59.99,
+    "old": 74.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJaW6lwsyWMtRpmjiG9vcZvZsLIjvD4wtUTae8pYVBg&s=10",
+    "badge": "TRENDING"
+  },
+  {
+    "id": 6,
+    "name": "Afro-Fusion Cargo Set",
+    "category": "teens",
+    "price": 49.99,
+    "old": 64.99,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQuiBhc_TNtw4lWEBXCbRIib-K6qvW2MuNqSqtVr7X2Bys9YIy97kckkLeWNKvN3Qo8tPt2c3d-fiqyBhc14ECVt57T9Ov8JtrTRX8L1DPPzEiATcUvFTeB&usqp=CAc",
+    "badge": "LIMITED"
+  },
+  {
+    "id": 7,
+    "name": "Teen Ankara Co-ord",
+    "category": "teens",
+    "price": 54.99,
+    "old": 69.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfGABXOGfXYA-IQz-OwIujTYMiR3l9thF-wCQclHtxjQ&s",
+    "badge": "NEW"
+  },
+  {
+    "id": 8,
+    "name": "Heritage Streetwear Hoodie",
+    "category": "teens",
+    "price": 45.0,
+    "old": 55.0,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTevcNZH66ZxQ4MkpUErxwx9YxG1KpP_ri0yuJsEV2UOw&s=10",
+    "badge": "HOT"
+  },
+  {
+    "id": 9,
+    "name": "Emerald Ankara Co-ord",
+    "category": "fashion",
+    "price": 44.99,
+    "old": 55.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbR7TvO_4tDiTK5HGSRqvVP8fzp_0oUMi2N-goO6Yg9g&s=10",
+    "badge": "NEW"
+  },
+  {
+    "id": 10,
+    "name": "Sunset Dashiki Shirt",
+    "category": "fashion",
+    "price": 32.5,
+    "old": 42.5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYMRpLoJH8wsWWJD57DRKeryMDUf0EjZHOZ79tNLxBrA&s",
+    "badge": "HOT"
+  },
+  {
+    "id": 11,
+    "name": "Royal Kente Occasion Dress",
+    "category": "fashion",
+    "price": 79.99,
+    "old": 99.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKuoLahIX-yEmnoE2BslqV8BjkqXLtpXtLsKNrnrzC_Q&s=10",
+    "badge": "PREMIUM"
+  },
+  {
+    "id": 12,
+    "name": "African Print Shirt",
+    "category": "fashion",
+    "price": 39.99,
+    "old": 49.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMbBzXSjoFlKBuU8kogeNRi0Q7tIGHM3PBaY0WsZKmvw&s=10",
+    "badge": "BESTSELLER"
+  },
+  {
+    "id": 13,
+    "name": "Royal Bead Crown Set",
+    "category": "accessories",
+    "price": 18.99,
+    "old": 24.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRYXn8AYvLLkVscDr-et2ZG46q6MNiUWGVthmqA-Gqkw&s=10",
+    "badge": "GIFT PICK"
+  },
+  {
+    "id": 14,
+    "name": "Heritage Mini Crossbody",
+    "category": "accessories",
+    "price": 27.99,
+    "old": 34.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJj-qDWKFAIqpMxW9XIZKkdiGFhhkgczRlUAvVDYzKCg&s",
+    "badge": "BESTSELLER"
+  },
+  {
+    "id": 15,
+    "name": "Adinkra Statement Necklace",
+    "category": "accessories",
+    "price": 22.99,
+    "old": 29.99,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRAVrjWU1VjvImGh2AZZkvDWCtsaFhdre9FXQD1UqMw6fSZ5yWwbY1jgAlSa1v_bocfik5NjF4keihs-a6oVn3SHPKGDlb2oMSVGHN3BbxKg6WIZHG4lvfTVA&usqp=CAc",
+    "badge": "HANDMADE"
+  },
+  {
+    "id": 16,
+    "name": "African Beaded Bracelet Stack",
+    "category": "accessories",
+    "price": 15.99,
+    "old": 19.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTdH1hPuApkbbVP5Vz1lpMw7AjBpdsQqowDqk_eKiqCn74b7zPjqAEsSOlpLQfAT6ApNWTL_pcbUCtS1c_sJXcT0w0GbaSqbRCnXuer-OumRuIA1aTU_7yP&usqp=CAc",
+    "badge": "NEW"
+  },
+  {
+    "id": 17,
+    "name": "Hand-Carved African Stool",
+    "category": "home",
+    "price": 89.99,
+    "old": 119.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9y5Mr6zj-QO78pbZzeN9yy8yeYO_bHyomceljGsIVg&s=10",
+    "badge": "ARTISAN"
+  },
+  {
+    "id": 18,
+    "name": "Woven Heritage Basket",
+    "category": "home",
+    "price": 39.99,
+    "old": 49.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVd3vOKuqp7ot82y1q7E55ujTQQ6NuofYFy63-3q1iQ&s",
+    "badge":"NEW"
+  },
+  {
+    "id": 19,
+    "name": "African Carved Side Table",
+    "category": "home",
+    "price": 129.99,
+    "old": 159.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAsegtYki8TmIylUgufPAEth48attJfoZwp8dN5mwUQ&s=10",
+    "badge": "PREMIUM"
+  },
+  {
+    "id": 20,
+    "name": "Kente Accent Cushion",
+    "category": "home",
+    "price": 24.99,
+    "old": 31.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdS5xkozUeclJ_hKlTjHrH9uP5tbnKlaa1imuEf-45Hw&s=10",
+    "badge": "BESTSELLER"
+  },
+  {
+    "id": 21,
+    "name": "African Print Backpack",
+    "category": "accessories",
+    "price": 34.99,
+    "old": 44.99,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85",
+    "badge": "BACK TO SCHOOL"
+  },
+  {
+    "id": 22,
+    "name": "Kids Ankara Hair Bow Set",
+    "category": "accessories",
+    "price": 12.99,
+    "old": 16.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGvs5oA4C94BWpsV9q_IdOyFRte3hQyiJzamd2U5KT_w&s=10",
+    "badge": "KIDS FAVOURITE"
+  },
+  {
+    "id": 23,
+    "name": "African Print Bucket Hat",
+    "category": "accessories",
+    "price": 19.99,
+    "old": 24.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxAQwvW86N3PuoDPQrSFmdIV3arMdQ_a6eaw3ygUeveA&s=10",
+    "badge": "TRENDING"
+  },
+  {
+    "id": 24,
+    "name": "Royal Kente Waistcoat",
+    "category": "teens",
+    "price": 49.99,
+    "old": 59.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmmLK9fOE6UunpfEtr1QDd6Wuz2RA_ZdxzuRFPhFsmQg&s=10",
+    "badge": "OCCASION"
+  },
+  {
+    "id": 25,
+    "name": "African Print Trainers",
+    "category": "kids",
+    "price": 36.99,
+    "old": 44.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQggtUdPcXco2bAZQgXphyQsdIK6JRppNuDYUGcIecgVg&s=10",
+    "badge": "NEW"
+  },
+  {
+    "id": 26,
+    "name": "Kente Graduation Stole",
+    "category": "fashion",
+    "price": 29.99,
+    "old": 39.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2_PbSuDon1tyzS6QZKFG6cbzCToxSU4UM74Nv-NICg&s=10",
+    "badge": "CELEBRATION"
+  },
+  {
+    "id": 27,
+    "name": "African Queen Headwrap",
+    "category": "accessories",
+    "price": 21.99,
+    "old": 27.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMoih_dQqq5bRyDzxZIdv1avohXMVGHx7O9K0ct1s85A&s=10",
+    "badge": "CROWN PICK"
+  },
+  {
+    "id": 28,
+    "name": "Handwoven Statement Chair",
+    "category": "home",
+    "price": 199.99,
+    "old": 249.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsXMngk__1PAjY4CUqpwX0rpUhe_-5JJaLvCy-XsbEuA&s=10",
+    "badge": "ARTISAN"
+  }
+]
